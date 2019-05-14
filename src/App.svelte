@@ -13,6 +13,7 @@
 </script>
 
 <h1 class="app-title">CodePen Job Board</h1>
+<a href="https://github.com/tjFogarty/codepen-job-board-svelte" target="_blank" rel="noopener noreferrer" class="source-link">View Source</a>
 
 {#if $isLoading}
 <div class="job-list-loading">Loading Jobs...</div>
@@ -52,5 +53,11 @@
     justify-content: center;
     grid-column: 1 / -1;
     height: 70vh;
+  }
+
+  .source-link {
+    display: block;
+    text-align: center;
+    color: white;
   }
 </style>
